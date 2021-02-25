@@ -16,27 +16,33 @@
 <body>
     <nav>
         <nav class="navbar navbar-dark bg-primary">
-            <div class="nav nav-tabs bg-primary" id="nav-tab" role="tablist">
-                <button class="nav-link active bg-primary text-white" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
-                    type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
-                    <div class="btn-group">
-                        <button class="btn btn-light text-white btn-sm dropdown-toggle bg" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          News
-                        </button>
-                        <ul class="dropdown-menu">
-                          Local<br>
-                          US<br>
-                          World
-                        </ul>
-                <button class="nav-link text-white" id="nav-about-tab" data-bs-toggle="tab" data-bs-target="#nav-about"
-                    type="button" role="tab" aria-controls="nav-about" aria-selected="false">About</button>
-                <button class="nav-link text-white" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
-                    type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+            <div class="container">
+                <div class="container-fluid">
+                    <div class="nav nav-tabs bg-primary" id="nav-tab" role="tablist">
+                        <button class="nav-link active bg-primary text-white" id="nav-home-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                            aria-selected="true">Home</button>
+                        <div class="btn-group">
+                            <button class="btn btn-light text-white btn-sm dropdown-toggle bg" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                News
+                            </button>
+                            <ul class="dropdown-menu">
+                                Local<br>
+                                US<br>
+                                World
+                            </ul>
+                            <button class="nav-link text-white" id="nav-about-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-about" type="button" role="tab" aria-controls="nav-about"
+                                aria-selected="false">About</button>
+                            <button class="nav-link text-white" id="nav-contact-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                                aria-selected="false">Contact</button>
         </nav>
     </nav>
     <div class="tab-content" id="nav-tabContent">
         <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-            </div>
+        </div>
         <div class="tab-pane fade" id="nav-news" role="tabpanel" aria-labelledby="nav-news-tab">Here is
             your local news..</div>
         <div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">This
@@ -55,27 +61,21 @@
             <img src="images/horse-capital.jpg" class="card-img" alt="horse-capital">
             <div class="card-img">
                 <div class="container">
-                    <div class="row row-cols-2">
-                        <div class="col">Column</div>
-                        <div class="col">Column</div>
+                    <div class="container-fluid">
+                        <div class="row row-cols-2">
+                            <div class="col">Column</div>
+                            <div class="col">Column</div>
+                            <div class="row ">
+                                <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
+                                <div class="w-100 d-none d-md-block"></div>
+                                <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="row ">
-                      <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
-                      <div class="w-100 d-none d-md-block"></div>
-                  <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
-                    </div>
-                  </div>
-
-
             </div>
-        </div>
 
-        </div>
-        </div>
-        </div>
-        </div>
+        
 
 
     </body>

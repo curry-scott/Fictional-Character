@@ -1,11 +1,12 @@
 body {
-    background-color: ;
+    
 }
 
 
 
 .btn {
     background-color: transparent;
+    border: transparent
 }
 
 
@@ -14,7 +15,8 @@ body {
     
 }
 
-.container {
+.col{
+    align-content: ;
     
 }
 
