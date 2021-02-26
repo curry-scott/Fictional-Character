@@ -40,11 +40,9 @@ body {
     border-style: solid;
 }
    
-.button{
-    
-}
+
 .background {
-    background-image: url('/images/Pierce.jpg');
+    background-image: url('./images/Pierce.jpg');
     background-size: 100%;
     margin-bottom: 50px;
    
