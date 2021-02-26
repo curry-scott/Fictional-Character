@@ -1,5 +1,7 @@
 body {
     
+    background-image: "images/horse-capital.jpg" 
+    
 }
 
 
@@ -7,17 +9,28 @@ body {
 .btn {
     background-color: transparent;
     border: transparent
+    
 }
 
 
+.conainer {
 
+}
 .nav {
     
 }
 
 .col{
-    align-content: ;
+    margin-bottom: ;
+    margin-top: auto;
+    align-items: flex-start;
     
 }
 
+.col-centered{
+    display: block;
+    
+    text-align: center;
+    align-items: flex-start;
+  }
 
