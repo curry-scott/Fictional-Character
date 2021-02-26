@@ -4,24 +4,18 @@ body {
     color: black;
 }
 
-.card {
+.card-body {
     background-color: black;
-}
-
-
-
-
-
-
-
     
 }
 
-.btn-card {
-    margin-top: 0%;
-    margin-bottom: 0%;
-    background-origin: padding-box;
-    border-style: solid;
+.carousel {
+    border-color: black;
 }
+
+
+
+
    
+
 
