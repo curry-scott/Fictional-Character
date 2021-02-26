@@ -1,36 +1,29 @@
 body {
     
-    background-image: "images/horse-capital.jpg" 
-    
 }
 
 
 
-.btn {
+.events {
+    
+}
+
+.card {
     background-color: transparent;
-    border: transparent
-    
+    margin-top: ;
 }
 
-
-.conainer {
-
-}
-.nav {
-    
-}
-
-.col{
-    margin-bottom: ;
+.card-img{
     margin-top: auto;
-    align-items: flex-start;
     
 }
 
-.col-centered{
-    display: block;
-    
-    text-align: center;
-    align-items: flex-start;
-  }
-
+.btn-card {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-origin: padding-box;
+}
+   
+.bottom {
+    background-color: violet;
+}
