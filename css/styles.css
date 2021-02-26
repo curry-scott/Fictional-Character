@@ -1,11 +1,22 @@
 body {
-    
+    background-color: transparent;
 }
 
 
 
 .events {
+    position: absolute;
+    right: 150px;
+    width: 200px;
+    height: 120px;
+    margin-top: 10px;
+    background-origin: 
     
+    
+}
+
+.img-card {
+    border-style: outset;
 }
 
 .card {
@@ -13,8 +24,12 @@ body {
     margin-top: ;
 }
 
-.card-img{
-    margin-top: auto;
+.logo   {
+    border-style: ;
+    margin-top: 10%;
+    border-style: solid;
+    
+}
     
 }
 
@@ -22,8 +37,15 @@ body {
     margin-top: 0%;
     margin-bottom: 0%;
     background-origin: padding-box;
+    border-style: solid;
 }
    
-.bottom {
-    background-color: violet;
+.button{
+    
+}
+.background {
+    background-image: url('/images/Pierce.jpg');
+    background-size: 100%;
+    margin-bottom: 50px;
+   
 }
