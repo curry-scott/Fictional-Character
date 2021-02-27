@@ -4,7 +4,7 @@ body {
     color: black;
 }
 
-.card-body {
+.card {
     background-color: black;
     
 }
@@ -12,6 +12,17 @@ body {
 .carousel {
     border-color: black;
 }
+
+.Countdown {
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    width: 20px;
+    color: white;
+    text-align: center;
+    border: 0px black;
+    border-radius: 0px;
+  
 
 
 

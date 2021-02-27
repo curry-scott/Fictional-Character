@@ -15,6 +15,7 @@
         crossorigin="anonymous"></script>
     <link href="./css/styles.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -69,7 +70,6 @@
             </div>
         </div>
     </div>
-
     <div class="carousel">
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner bg-dark">
@@ -94,40 +94,41 @@
                 <span class="visually-hidden">Next</span>
             </button>
             <div class="card">
-                <div class="card-body">
-                    <div class="fixed-bottom ">
-                        <div class="container bg-black">
-                            <form action="#" method="post" novalidate="novalidate">
-                                <div class="d-grid gap-2 col-6 mx-auto">
-                                    <button class="btn btn-outline-secondary btn-lg text-white bg-dark"
-                                        href="https://www.downtownlex.com/events/" role="button" rel="nofollow"
-                                        target="_blank">
-                                        Community Events
-                                    </button>
-                                    <button class="btn btn-outline-secondary btn-lg text-white bg-dark"
-                                        href="https://greatnonprofits.org/state/Kentucky" target="_blank" role="button">
-                                        Donate
-                                        Kentucky
-                                    </button>
-                                </div>
-                            </form>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="fixed-bottom text-center">
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                                <button class="btn btn-outline-secondary btn-lg text-white bg-dark"
+                                    href="https://www.downtownlex.com/events/" role="button" rel="nofollow"
+                                    target="_blank">
+                                    Community Events
+                                </button>
+                                <button class="btn btn-outline-secondary btn-lg text-white bg-dark"
+                                    href="https://greatnonprofits.org/state/Kentucky" target="_blank" role="button">
+                                    Donate
+                                    Kentucky
+                                </button>
+                            </div>
+                            <div class="card-body text-white">
+
+                                <body>
+                                    <dev class="Countdown">
+                                        <dev id="days"></dev>
+                                        <dev id="hours"></dev>
+                                        <dev id="mins"></dev>
+                                        <dev id="secs"></dev>
+                                        <h2 id="end"></h2>
+                                    </dev>
+                                    <script src='js/main.js'>
+                                    </script>
+                                </body>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
-
-</body>
-
-
-
-
-
-
-
-
 </body>
 
 </html>
