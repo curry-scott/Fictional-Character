@@ -6,7 +6,7 @@ body {
 
 .card {
     background-color: black;
-    
+   
 }
 
 .carousel {
@@ -15,7 +15,7 @@ body {
 
 .Countdown {
     font-family: sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bolder;
     width: 20px;
     color: white;
@@ -23,6 +23,7 @@ body {
     border: 0px black;
     border-radius: 0px;
   
+
 
 
 
